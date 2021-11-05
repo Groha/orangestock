@@ -8,23 +8,113 @@
    <title>ORANGESTOCK</title>
 </head>
 <body>
-   <div class="wrapper max-w-screen-xl m-auto">
-      <header class="header relative z-20">
-         <div class="header__top flex items-center mt-5 mb-16">
-            <div class="header__logo mr-5">
-               <img src="./img/logo.png" alt="logo" class="w-full object-cover">
+   <div class="font-sans">
+      <header>
+         <div class="relative z-20 max-w-screen-xl m-auto"> <!--container-->
+            <div class="flex justify-center lg:justify-start items-center mt-5 mb-16">
+               <div class="mr-5 hidden lg:block">
+                  <img src="./img/logo.png" alt="logo" class="w-full object-cover">
+               </div>
+               <div class="mr-5 lg:hidden">
+                  <img src="./img/logo_w.png" alt="logo" class="w-full object-cover">
+               </div>
+               <h2 class="text-5xl sm:text-6xl font-bold text-white lg:text-yellow-500">rangestock</h2>
             </div>
-            <h2 class="header__logo-text text-6xl font-bold text-yellow-400">rangestock</h2>
+            <div class="m-auto max-w-screen-md flex flex-col items-center mb-20 lg:mb-36">
+               <h1 class="text-5xl sm:text-8xl font-bold text-center leading-tight mb-10">Заработок фотографам</h1>
+               <p class="text-2xl sm:text-4xl font-light text-center mb-16 max-w-xl">Положи конец недовольным клиентам!</p>
+               <button class="btn py-5 px-14 sm:py-9 sm:px-20 bg-blue-500">Попробовать сейчас!</button>
+            </div>
+            <div class="mx-5 lg:flex max-w-5xl lg:m-auto lg:mb-24 mb-16">
+               <div class="flex mr-14 items-center mb-7 lg:mb-0">
+                  <div class="w-20 sm:w-24 bg-green-500 rounded-3xl p-2.5 mr-10 flex-shrink-0">
+                     <img src="./img/like.png" alt="like" class="w-full object-cover">
+                  </div>
+                  <p class="text-lg sm:text-2xl">Клиент покупает только фотографии которые ему понравились</p>
+               </div>
+               <div class="flex items-center">
+                  <div class="w-20 sm:w-24 bg-blue-500 rounded-3xl p-2.5 mr-10 flex-shrink-0">
+                     <img src="./img/gallery.png" alt="gallery" class="w-full object-cover">
+                  </div>
+                  <p class="text-lg sm:text-2xl">Клиент получает купленные оригиналы фотографии в высоком разрешении</p>
+               </div>
+            </div>
          </div>
-         <div class="header__body m-auto max-w-screen-md flex flex-col items-center">
-            <h1 class="header__title text-8xl font-bold text-center leading-tight mb-8">Заработок фотографам</h1>
-            <p class="header__text text-4xl font-light text-center mb-16">Положи конец недовольным клиентам!</p>
-            <button class="header__btn cursor-pointer py-9 px-20 bg-blue-500 w-max rounded-full text-3xl font-bold text-white uppercase">Попробовать сейчас!</button>
-         </div>
+         <img src="./img/top_right.jpg" alt="" class="block absolute top-0 right-0 z-0 max-w-full lg:max-w-screen-sm xl:max-w-screen-md 2xl:max-w-screen-lg">
+         <img src="./img/top_left.png" alt="" class="block absolute top-60 left-0 z-0">
+         <img src="./img/women.png" alt="" class="block absolute top-48 left-48 z-10 hidden 2xl:block max-w-lg">
+         <img src="./img/vector_top_right.png" alt="" class="block absolute bottom-1 right-40">
       </header>
-      <img src="./img/top_right.jpg" alt="" class="block absolute top-0 right-0 z-0 max-w-screen-lg">
-      <img src="./img/top_left.jpg" alt="" class="block absolute top-60 left-0 z-0">
-      <img src="./img/women.png" alt="" class="block absolute top-48 left-48 z-10">
+      <main>
+         <div class="relative mb-16 lg:mb-32">
+            <div class="max-w-3xl lg:m-auto mx-8 relative z-20"> <!--container-->
+               <p class="title mb-14">Охвати больше клиентов за меньшее время!</p>
+               <div class="flex mb-10 sm:mb-16 items-center">
+                  <div class="relative mr-8 sm:mr-16">
+                     <div class="bg-yellow-500 w-20 h-20 sm:w-24 sm:h-24 p-4 rounded-3xl transform rotate-45"></div>
+                     <div class="w-20 h-20 sm:w-24 sm:h-24 p-4 absolute top-0 left-0">
+                        <img src="./img/time.png" alt="time" class="w-full object-cover">
+                     </div>
+                  </div>
+                  <p class="text-2xl md:text-3xl font-bold">Не трать время на лишнее<span class="font-light"> (поставить водяные знаки, как принять деньги, как передать фотографий, поиск оригиналов фотографий и т.д.)</span></p>
+               </div>
+               <div class="flex mb-10 sm:mb-16 items-center">
+                  <div class="relative mr-8 sm:mr-16">
+                     <div class="bg-green-500 w-20 h-20 sm:w-24 sm:h-24 p-4 rounded-3xl transform rotate-45"></div>
+                     <div class="w-20 h-20 sm:w-24 sm:h-24 p-4 absolute top-0 left-0">
+                        <img src="./img/wireless.png" alt="time" class="w-full object-cover">
+                     </div>
+                  </div>
+                  <p class="text-2xl md:text-3xl font-bold">Не трать энергию на недовольных клиентов</p>
+               </div>
+               <div class="flex mb-10 sm:mb-16 items-center">
+                  <div class="relative mr-8 sm:mr-16">
+                     <div class="bg-blue-500 w-20 h-20 sm:w-24 sm:h-24 rounded-3xl transform rotate-45"></div>
+                     <div class="w-20 h-20 sm:w-24 sm:h-24 p-4 absolute top-0 left-0">
+                        <img src="./img/star.png" alt="time" class="w-full object-cover">
+                     </div>
+                  </div>
+                  <p class="text-2xl md:text-3xl font-bold">Направь освободившееся время на увеличение дохода или исполнение своей мечты</p>
+               </div>
+            </div>
+            <img src="./img/vector_main_top_left.png" alt="" class="block absolute top-0 left-0">
+            <img src="./img/main_top_right.png" alt="" class="block absolute top-0 right-0">
+         </div>
+         <div class="relative mb-16 lg:mb-20">
+            <div class="flex flex-col max-w-screen-xl m-auto items-center relative z-20"> <!--container-->
+               <p class="title mb-16"><span class="text-blue-500">Попробуй Orangestock сейчас</span> – для тебя это абсолютно бесплатно!</p>
+               <div class="flex flex-col md:flex-row mb-10 md:mb-16 lg:mb-24 mx-4 items-center">
+                  <div class="md:w-1/3 flex flex-col items-center md:items-start mb-6 md:mb-0">
+                     <p class="w-12 h-12 rounded-full bg-yellow-500 flex-shrink-0 flex items-center justify-center text-3xl text-white font-bold mb-2.5">1</p>
+                     <div class="flex flex-col items-center md:flex-row md:pl-12">
+                        <p class="text-2xl font-bold mb-6 md:mb-0 md:mr-16 text-center md:text-left">Отправь ссылку клиенту</p>
+                        <div class="transform rotate-90 md:rotate-0 w-7 md:w-14">
+                           <img src="./img/arrow.png" alt="arrow" class="w-full object-cover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/3 flex flex-col items-center md:items-start mb-6 md:mb-0">
+                     <p class="w-12 h-12 rounded-full bg-green-500 flex-shrink-0 flex items-center justify-center text-3xl text-white font-bold mb-2.5">2</p>
+                     <div class="flex flex-col items-center md:flex-row md:pl-12">
+                        <p class="text-2xl font-bold mb-6 md:mb-0 md:mr-16 text-center md:text-left">Получи оплату от клиента</p>
+                        <div class="transform rotate-90 md:rotate-0 w-7 md:w-14">
+                           <img src="./img/arrow.png" alt="arrow" class="w-full object-cover">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/3 flex flex-col items-center md:items-start mb-6 md:mb-0">
+                     <p class="w-12 h-12 rounded-full bg-blue-500 flex-shrink-0 flex items-center justify-center text-3xl text-white font-bold mb-2.5">3</p>
+                     <div class="flex flex-col items-center md:flex-row md:pl-12">
+                        <p class="text-2xl font-bold text-center md:text-left">Налоги и комиссию банка оплатить клиент (всего 7%)</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="cursor-pointer text-center rounded-full text-2xl md:text-3xl font-bold text-white py-3 px-7 sm:py-5 sm:px-11 bg-yellow-500 mb-16 mx-4">Просто отправь ссылку клиенту. Все остальное сделает Orangestock</div>
+               <button class="btn py-5 px-14 sm:py-9 sm:px-20 bg-blue-500">Попробовать сейчас!</button>
+            </div>
+            <img src="./img/vector_blau_left.png" alt="" class="md:block absolute top-16 left-0 hidden">
+         </div>
+      </main>
    </div>
    
 </body>

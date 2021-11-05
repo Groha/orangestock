@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss ./src/style.css -o ./public/style.css",
     "prod": "NODE_ENV=production postcss ./src/style.css -o ./public/style.css"
   },
